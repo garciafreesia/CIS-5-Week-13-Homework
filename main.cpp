@@ -5,8 +5,7 @@
 // CIS 5 Week 13 · Word tools
 
 std::string banner(const std::string& name) {
-  // TODO: return "Hello, " + name + "!"
-  return name;
+  return "Hello, " + name + "!";
 }
 
 std::string initials(const std::string& first, const std::string& last) {
