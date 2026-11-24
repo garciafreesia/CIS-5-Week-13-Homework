@@ -6,8 +6,8 @@
 
 // Montly Expenses
 struct Expense {
-  std::string name;
-  double balance;
+  std::string category;
+  double amount;
 };
 
 void printExpense(const Expense& e) {
