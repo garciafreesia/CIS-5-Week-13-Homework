@@ -10,7 +10,7 @@ struct Expense {
   double balance;
 };
 
-void printExpense(const Expense& a) {
+void printExpense(const Expense& e) {
   std::cout << e.category << " " << e.amount << "\n";
 }
 
