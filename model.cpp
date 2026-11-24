@@ -15,8 +15,8 @@ void printExpense(const Expense& a) {
 }
 
 int main() {
-  Account a1 = {"Food", 120.75};
-  Account a2 = {"Gas", 75.35};
+  Expense e1 = {"Food", 120.75};
+  Expense e2 = {"Gas", 75.35};
 
   printExpense(e1);
   printExpense(e2);
