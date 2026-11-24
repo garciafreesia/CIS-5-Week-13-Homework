@@ -4,22 +4,22 @@
 // Practice 13 · Part 2 — Freesia Garcia
 // CIS 5 Week 13 · The struct your final needs
 
-// TODO: rename this struct and its fields to fit your track.
-struct Account {
+// Montly Expenses
+struct Expense {
   std::string name;
   double balance;
 };
 
-void printAccount(const Account& a) {
-  std::cout << a.name << " " << a.balance << "\n";
+void printExpense(const Expense& a) {
+  std::cout << e.category << " " << e.amount << "\n";
 }
 
 int main() {
-  Account a1 = {"Ada", 50.25};
-  Account a2 = {"Ben", 120.5};
+  Account a1 = {"Food", 120.75};
+  Account a2 = {"Gas", 75.35};
 
-  printAccount(a1);
-  printAccount(a2);
+  printExpense(e1);
+  printExpense(e2);
   
   return 0;
 }
